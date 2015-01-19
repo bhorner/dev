@@ -7,3 +7,26 @@ body {
   font-family: $font;
   color: $text-color;
 }
+.callout {
+	padding: 60px 0;
+	h1 {
+		font-weight: 700;
+	}
+}
+.no-margin{
+	margin:0px !important;
+}
+
+.column {
+	img {
+		margin-bottom: 30px;
+	}
+	h5 {
+		font-weight: 700;
+		letter-spacing: 1px;
+		margin-bottom: 5px;
+	}
+	h3 {
+		margin-top: 0;
+	}
+}
