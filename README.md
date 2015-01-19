@@ -17,6 +17,7 @@ You should see something like:
 16 Jan 15:40:15 - [nodemon] watching: *.*
 16 Jan 15:40:15 - [nodemon] starting `node bin/www`
 ```
+Now open up your browser and go to "http://localhost:3000/", and voila!
 
 ### CONGRATS YOUR LOCAL NODE SERVER IS RUNNING, BABY. Take a breathe, give yourself a high-five.
 
