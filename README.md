@@ -11,7 +11,12 @@ To make sure you're in the right directory type "ls" and it should display all t
 
 ## 3. Run your server
 Now that you're in your project folder in terminal, we can run the node server to get this thing poppin. 
-Type "nodemon bin/www" in terminal:
+We're going to use a nifty file watcher to run our server called Nodemon. to install, inn terminal, type:
+```
+npm install -g nodemon
+```
+
+Next go back to terminal and type "nodemon bin/www":
 You should see something like:
 ```
 16 Jan 15:40:15 - [nodemon] v1.2.1
@@ -35,4 +40,4 @@ The nodemon will automatically update your SASS and html files automatically eve
 - Editing /sass/style.scss will compile to /public/sass/style.css (notics we're importing all of our bootstrap SASS)
 - Editing /js/dev.js will compile to /public/js/dev.min.js
 
-## Go Nuts
+## Go Nuts: 
